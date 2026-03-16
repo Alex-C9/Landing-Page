@@ -11,6 +11,9 @@ body {
 
 .header, .footer {
     background-color: #1f2937;
+}
+
+.header {
     height: 500px;
 }
 
@@ -87,3 +90,72 @@ button {
     font-size: 14px;
     font-weight: 700;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.square img {
+    border: solid #3382F6 3px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subtext p {
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 100px;
+}
+
+#quote-text {
+    width: 700px;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 150px;
+    color: rgb(82, 76, 76);
+}
+
+.quotation {
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.action {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    
+}
+
+
+
